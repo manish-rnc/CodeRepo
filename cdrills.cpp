@@ -3,16 +3,16 @@ using namespace std;
 
 void solve()
 {
-	int n;
-	cin >> n;
+    int n;
+    cin >> n;
     cin.ignore(256,'\n');
     vector<string> v;
-	for(int i = 0; i < n; i++)
-	{
-		string s;
-		getline(cin,s);
-		v.push_back(s);
-	}
+    for(int i = 0; i < n; i++)
+    {
+	string s;
+	getline(cin,s);
+	v.push_back(s);
+    }
     long long count = 0;
     for(int i=0;i<n;i++)
     {
